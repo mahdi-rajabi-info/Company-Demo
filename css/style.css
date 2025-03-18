@@ -69,6 +69,17 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.services{
+    padding: 30px;
+}
+.services h4{
+    padding: 10px 0;
+}
+.glyphicon-services{
+    font-size: 70px;
+    color: #f4511e;
+    padding: 10px 0;
+}
 @media screen and (max-width: 768px) {
 
     .col-sm-4, .col-sm-8 {
