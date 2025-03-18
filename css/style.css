@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+}
+
+.navbar-custom {
+    background: #f4511e;
+    border: none;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background: #f4511e;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background: #FFF;
+}
+
+.navbar-header > .navbar-brand {
+    font-size: 22px;
+    letter-spacing: 4px;
+    color: #FFF;
+}
+.navbar-nav {
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+.navbar-collapse > ul.navbar-nav li a {
+    color: #FFF;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-collapse > ul.navbar-nav li a:hover {
+    color: #f4511e;
+    background: white;
+}
+.jumbotron-custom {
+    padding: 100px 0;
+    background: #f4511e;
+}
+.jumbotron h1{
+    color: #FFF;
+}
+.jumbotron p{
+    color: #FFF;
+    padding: 10px;
+}
+.glyphicon-custom{
+    font-size: 200px;
+    color: #f4511e;
+}
+.h2-custom{
+    line-height: 10px;
+}
+.h4-custom{
+    padding: 25px 0 0;
+    line-height: 30px;
+}
+.p-custom{
+    line-height: 25px;
+    padding: 20px 0;
+}
+.well{
+    margin: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+
+    .col-sm-4, .col-sm-8 {
+        text-align: center;!important;
+    }
+
+}
